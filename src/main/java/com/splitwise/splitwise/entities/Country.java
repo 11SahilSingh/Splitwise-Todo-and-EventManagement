@@ -9,8 +9,10 @@ public class Country {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="COUNTRY_PK_ID")
     private Integer countryPkId;
+
     @Column(name="COUNTRY_NAME")
     private String countryName;
+
     @Column(name="COUNTRY_CODE")
     private String countryCode;
 
